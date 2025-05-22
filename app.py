@@ -34,8 +34,8 @@ if not creds_json:
     raise Exception("GOOGLE_CREDS_JSON not found in environment variables!")
 creds_dict = json.loads(creds_json)
 scopes = [
-    "https://www.googleapis.com/auth/spreadsheets",  # <-- This is the main one for gspread
-    "https://www.googleapis.com/auth/drive"          # <-- Optional: if you need file access
+    "https://www.googleapis.com/auth/spreadsheets",  
+    "https://www.googleapis.com/auth/drive"          
 ]
 google_creds = Credentials.from_service_account_info(creds_dict, scopes=scopes)
 
