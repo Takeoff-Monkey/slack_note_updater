@@ -1,0 +1,20 @@
+# Ignore Python bytecode and environment
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+env/
+*.egg-info/
+
+# Ignore system files
+.DS_Store
+
+# Ignore secrets and credentials
+.env
+g-sheets-experiments-c48bb50fa78e.json
+
+# Explicitly track these required files
+!app.py
+!Procfile
+!requirements.txt
+!.gitignore
