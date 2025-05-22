@@ -1,3 +1,5 @@
+// Google Apps Script used in Slack Note Bot (May 2025 backup)
+
 function doPost(e) {
   // Parse incoming JSON payload
   var data = JSON.parse(e.postData.contents);
