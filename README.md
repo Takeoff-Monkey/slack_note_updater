@@ -1,1 +1,1 @@
-# slack-help-bot
+# slack-note-updater
