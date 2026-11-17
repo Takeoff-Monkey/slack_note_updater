@@ -1,0 +1,27 @@
+# Ignore Python bytecode and environment
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+env/
+*.egg-info/
+
+# Ignore system files
+.DS_Store
+
+# Ignore credentials
+g-sheets-experiments-c48bb50fa78e.json
+
+# Local env / secrets — never commit
+.env.*
+!.env.example
+.claude/settings.json
+.claude/work-key.sh
+files-local
+.env*
+
+# Explicitly track these required files
+!app.py
+!Procfile
+!requirements.txt
+!.gitignore
